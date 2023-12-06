@@ -1,0 +1,82 @@
+:root {
+    font-size: 62.5%;
+    --primery-color: #2D2D2D;
+    --two-color: white;
+    --blue-color: #00D5E4;
+    --grey-color: #575555;
+}
+
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--two-color);
+}
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.dk-color-background{
+    background-color: var(--primery-color);
+    margin: 0px;
+}
+
+.dk-header {
+    border-bottom: 1px solid var(--grey-color);
+    padding-bottom: 16px;
+    padding-top: 8px;
+}
+
+.dk-menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+}
+
+.dk-heading-1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    max-width: 325px;
+    margin: 32px 14px 5px 21px;
+}
+
+.dk-text-1{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    max-width: 288px;
+    margin-left: 21px;
+}
+
+.dk-image-filtr{
+    display: block;
+    margin-top: -40px;
+}
+
+.dk-chimic-card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.dk-section-2{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
